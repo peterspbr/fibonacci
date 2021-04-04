@@ -1,4 +1,4 @@
-# ##### Make the program runs on a x86_64 processor #####
+# ##### Make the compatible with a x86_64 processor #####
 	.text
 	.globl	x
 	.bss

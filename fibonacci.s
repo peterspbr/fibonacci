@@ -1,3 +1,4 @@
+# ##### Make the program runs on a x86_64 processor #####
 	.text
 	.globl	x
 	.bss
@@ -19,11 +20,14 @@ y:
 z:
 	.zero	4
 	.section	.rodata
+# #######################################################
+
 .LC0:
 	.string	"%d\n"
 	.text
 	.globl	main
 	.type	main, @function
+	
 main:
 .LFB0:
 	pushq	%rbp

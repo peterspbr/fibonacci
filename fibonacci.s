@@ -1,4 +1,4 @@
-# ##### Make the compatible with a x86_64 processor #####
+# ##### Make the program compatible with a x86_64 processor #####
 	.text
 	.globl	x
 	.bss
@@ -20,7 +20,7 @@ y:
 z:
 	.zero	4
 	.section	.rodata
-# #######################################################
+# ##############################################################
 
 .LC0:
 	.string	"%d\n"
